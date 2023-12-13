@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.component {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+mat-form-field {
+  width: 100px;
+}

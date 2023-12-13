@@ -1,14 +1,27 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  selector: 'counter-wc',
+  encapsulation: ViewEncapsulation.ShadowDom,
+  styleUrls: ['./app.component.css', '../styles.css'],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styles: `
+  `
 })
 export class AppComponent {
-  title = 'hello-wc';
+
+  count:number=0;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  increment(){
+    this.count++;
+  }
+
+  decrement(){
+    this.count--;
+  }
 }
