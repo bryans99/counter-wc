@@ -24,4 +24,9 @@ export class AppComponent {
   decrement(){
     this.count--;
   }
+
+  launchHello() {
+    const ce = new CustomEvent('MFE_NAVIGATE', {detail:{ url: '/app/wc-hello::wc' }});
+    window.dispatchEvent(ce);
+  }
 }

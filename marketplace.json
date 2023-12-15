@@ -1,0 +1,21 @@
+{
+  "label": "Counter Web Component (Marketplace)",
+  "category_label": "Applications",
+  "branding": {
+    "image_uri": "https://marketplace-api.looker.com/app-icons/icon_kitchensink.svg",
+    "tagline": "Counter Web Component",
+    "brand_color": "#24B25F"
+  },
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    }
+  },
+  "models": [
+    {
+      "name": "extension-api-explorer",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ]
+}
