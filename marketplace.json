@@ -14,7 +14,7 @@
   },
   "models": [
     {
-      "name": "extension-api-explorer",
+      "name": "wc-counter-marketplace",
       "connection_constant": "CONNECTION_NAME"
     }
   ]
