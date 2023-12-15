@@ -5,7 +5,8 @@ application: wc {
   url: ["https://marketplace-api.looker.com/staging/viz-dist/wc-counter-main.js"]
   dependencies: ["https://marketplace-api.looker.com/staging/viz-dist/wc-counter-main.js"]
   tagname: "counter-wc"
-  entitlements: {}
+  entitlements: {
+  }
 }
 
 constant: CONNECTION_NAME {
