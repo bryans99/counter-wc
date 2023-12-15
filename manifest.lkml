@@ -11,4 +11,5 @@ application: wc {
 
 constant: CONNECTION_NAME {
   value: ""
+  export: override_required
 }
